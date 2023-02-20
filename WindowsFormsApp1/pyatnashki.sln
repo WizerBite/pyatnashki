@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{05E2B34C-F4E0-4CAA-B73F-82554C5F0191}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pyat_U_test", "pyat_U_test\pyat_U_test.csproj", "{0A47C53B-3ED9-43C8-AAAF-AE5E81E52164}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05E2B34C-F4E0-4CAA-B73F-82554C5F0191} = {05E2B34C-F4E0-4CAA-B73F-82554C5F0191}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05E2B34C-F4E0-4CAA-B73F-82554C5F0191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E2B34C-F4E0-4CAA-B73F-82554C5F0191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E2B34C-F4E0-4CAA-B73F-82554C5F0191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E2B34C-F4E0-4CAA-B73F-82554C5F0191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A47C53B-3ED9-43C8-AAAF-AE5E81E52164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A47C53B-3ED9-43C8-AAAF-AE5E81E52164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A47C53B-3ED9-43C8-AAAF-AE5E81E52164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A47C53B-3ED9-43C8-AAAF-AE5E81E52164}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2FC4FD1-0409-4F87-A28D-9320371DB5C3}
+	EndGlobalSection
+EndGlobal
